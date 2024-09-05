@@ -17,7 +17,7 @@ export const useValidateUser = ( captchaResponse ) => {
     const [ user_valid, set_user_valid ] = useState( undefined )
     const challenge = useChallenge( challenge_code )
 
-    // Stakking function 
+    // Staking function 
     async function stall( trail, step_delay=5000, error=true ) {
 
         // Mark user as invalid
